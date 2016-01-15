@@ -1,0 +1,1 @@
+# delicious2firefox
