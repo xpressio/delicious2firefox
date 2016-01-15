@@ -1,6 +1,6 @@
 # delicious2firefox
 
-Simple script to export bookmarks from `ybookmarks.sqlite` (used by the now discontinued [delicious Firefox add-on](https://addons.mozilla.org/en-US/firefox/addon/delicious-bookmarks/) to a html file in the [Netscape Bookmark File Format](https://msdn.microsoft.com/en-us/library/aa753582%28v=vs.85%29.aspx). 
+Simple script to export bookmarks from `ybookmarks.sqlite` (used by the now discontinued [delicious Firefox add-on](https://addons.mozilla.org/en-US/firefox/addon/delicious-bookmarks/) to a html file in the [Netscape bookmark file format](https://msdn.microsoft.com/en-us/library/aa753582%28v=vs.85%29.aspx). 
 
 The script is based on Qiangning Hong's [**RescueDelicious**](https://pypi.python.org/pypi/RescueDelicious). Thank you for your great work!
 
@@ -22,7 +22,11 @@ The `ybookmarks.sqlite` file is located in your Firefox [profile folder](https:/
 
 ###  Motivation
 
-Wanting to migrate from delicious to Firefox' built-in bookmarks-management, I did not find working solution to export my bookmarks from the delicious.com website.
+Wanting to migrate from delicious to Firefox' built-in bookmarks-management, I did not find a working solution to export my bookmarks from the delicious.com website.
+
+Looking for solution I stumbled upon the `ybookmarks.sqlite` file, which is a local copy of your delicious bookmarks saved by the no longer maintained delicious Firefox add-on.
+
+Luckily Qiangning Hong had already developed [**RescueDelicious**](https://pypi.python.org/pypi/RescueDelicious) which offered a convenient way of extracting the data from the sqlite file. I modified his script to create a html-file that can be imported into Firefox (or any other browser supporting the Netscape bookmark file format).
 
 ## License
 
