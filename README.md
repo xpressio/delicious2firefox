@@ -13,11 +13,9 @@ This is literally my first Python script. I hope it may still be of use to someo
 This will create a file called "fbm.html", containing all your bookmarks in the Netscape Bookmark File Format.
 This file can be imported to Firefox as described here: https://support.mozilla.org/en-US/kb/import-bookmarks-html-file.
 
-## Details
-
 ### Tag to Folder Conversion
 Tags used in delicious are converted to folders in the html file.
-Note, that as a result any bookmark previously containing more than one tag will be duplicated in the newly created `fbm.html`.
+Note, that as a result any bookmarks previously containing more than one tag will be duplicated in the newly created `fbm.html`.
 
 ### ybookmarks.sqlite
 The `ybookmarks.sqlite` file is located in your Firefox [profile folder](https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data).
