@@ -1,15 +1,14 @@
 # delicious2firefox
-## Synopsis
 
-Simple script that can be used to export bookmarks from the sqlite database file used by the (now discontinued) [delicious Firefox add-on](https://addons.mozilla.org/en-US/firefox/addon/delicious-bookmarks/) (`ybookmarks.sqlite`) to a html file in the [Netscape Bookmark File Format](https://msdn.microsoft.com/en-us/library/aa753582%28v=vs.85%29.aspx). 
+Simple script to export bookmarks from `ybookmarks.sqlite` (used by the now discontinued [delicious Firefox add-on](https://addons.mozilla.org/en-US/firefox/addon/delicious-bookmarks/) to a html file in the [Netscape Bookmark File Format](https://msdn.microsoft.com/en-us/library/aa753582%28v=vs.85%29.aspx). 
 
 The script is based on Qiangning Hong's [**RescueDelicious**](https://pypi.python.org/pypi/RescueDelicious). Thank you for your great work!
 
-This is literally my first Python script. I hope it might still be useful to someone!
+This is literally my first Python script. I hope it may still be of use to someone.
 
 ## Usage
 
-    d2f.py <your-ybookmarks.sql-file>
+    d2f.py <your-ybookmarks.sqlite-file>
 
 This will create a file called "fbm.html", containing all your bookmarks in the Netscape Bookmark File Format.
 This file can be imported to Firefox as described here: https://support.mozilla.org/en-US/kb/import-bookmarks-html-file.
