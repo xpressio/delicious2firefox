@@ -1,7 +1,7 @@
 # delicious2firefox
 ## Synopsis
 
-This very simple script exports bookmarks saved in the sqlite database file ("ybookmarks.sql") used by the delicious Firefox add-on to the Netscape Bookmark File Format https://msdn.microsoft.com/en-us/library/aa753582%28v=vs.85%29.aspx. 
+Simple script that can be used to export bookmarks from the sqlite database (_ybookmarks.sql_) used by the delicious Firefox add-on. to the Netscape Bookmark File Format https://msdn.microsoft.com/en-us/library/aa753582%28v=vs.85%29.aspx. 
 
 The script is based on Qiangning Hong's **RescueDelicious**. Thank you for your great work!
 
