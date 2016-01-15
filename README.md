@@ -7,7 +7,10 @@ The script is based on Qiangning Hong's **RescueDelicious**. Thank you for your 
 
 ## Usage
 
-your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
+    d2f.py <your-ybookmarks.sql-file>
+
+This will create a file called "fbm.html", containing all your bookmarks in the Netscape Bookmark File Format.
+This file can be imported to Firefox as described here: https://support.mozilla.org/en-US/kb/import-bookmarks-html-file.
 
 ## Motivation
 
