@@ -8,7 +8,7 @@ This is literally my first Python script. I hope it may still be of use to someo
 
 ## Usage
 
-    d2f.py <your-ybookmarks.sqlite-file>
+    ./d2f.py <your-ybookmarks.sqlite-file>
 
 This will create a file called `fbm.html`, containing all your bookmarks in the Netscape bookmark file format.
 This file can be [imported to Firefox](https://support.mozilla.org/en-US/kb/import-bookmarks-html-file).
